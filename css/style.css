@@ -1,0 +1,15 @@
+/*configuraciones globales*/
+:root{
+    /*colores de la página*/
+    --color1: #fff;
+    --color2: #000;
+
+    /*fuentes de la página*/
+    --fuente1: 'Roboto',Sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente1);
+}
