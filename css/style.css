@@ -1,4 +1,4 @@
-/* configuracion */
+/* variaables */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 :root{
@@ -6,8 +6,7 @@
     --fuente:'Roboto', sans-serif;
     --colorFooter:#3b0505;
 }
-
-
+/* configuraciones globales */
 *{
     margin: 0;
     padding: 0;
@@ -16,14 +15,13 @@
     text-decoration: none;
 
 }
-
 html{
     overflow-x: hidden;
     max-width: 100%;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
-
+/* Header */
 header{
     background-color:var(--colorHeader);
     width: 100%;
@@ -31,7 +29,6 @@ header{
     top: 0;
     left: 0;
 }
-
 .header-superior{
     max-width: 1200px;
     margin: auto;
@@ -41,11 +38,10 @@ header{
     padding-top:5px;
 
 }
-
+/* logo */
 .logo img{
     width: 120px;
 }
-
 .container-menu{
     width: 100%;
     height: 70px;
@@ -59,22 +55,19 @@ header{
     margin: auto;
     height: 100%;
 } */
-
+/* Navegación */
 nav{
     height: 100%;
 }
-
 nav > ul{
     height: 100%;
     display: flex;
 }
-
 nav ul li{
     height: 100%;
     list-style: none;
     position: relative;
 }
-
 nav > ul > li > a{
     width: 100%;
     height: 100%;
@@ -85,18 +78,15 @@ nav > ul > li > a{
     font-size: 14px;
     transition: all 300ms ease;
 }
-
 nav > ul > li > a:hover{
     transform: scale(1,1);
     background: #3b0505;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
-
 #selector{
     transform: scale(1,1);
     background: #0c4195;
 }
-
 /* sub menu */
 nav ul li ul{
     width: 200px;
@@ -114,14 +104,12 @@ nav ul li ul{
     z-index: 10;
 
 }
-
 nav ul li:hover ul{
     visibility: visible;
     opacity: 1;
     top: 70px;
 
 }
-
 nav ul li ul::before{
     content: '';
     width: 0;
@@ -134,7 +122,6 @@ nav ul li ul::before{
     left: 20px;
 
 }
-
 nav ul li ul li a{
     display: flex;
     color: #7c1717;
@@ -146,7 +133,6 @@ nav ul li ul li a{
     transition: all 300ms ease;
 
 }
-
 nav ul li ul li a:hover{
     background-color: #4d2222;
     color: #fff;
@@ -155,12 +141,9 @@ nav ul li ul li a:hover{
     font-size: 14px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
-
-
 nav > ul > li:first-child > a{
     background-color:#3b0505;
 }
-
 .title{
     text-align: center;
     margin-top: 250px;
@@ -168,9 +151,7 @@ nav > ul > li:first-child > a{
     font-size: 3.5rem;
     color: #000000;
 }
-
 /* slider */
-
 .container__slider{
     max-width: 800px;
     height: 400px;
@@ -180,7 +161,6 @@ nav > ul > li:first-child > a{
     justify-content: center;
     padding: 20px 20px;
 }
-
 input[type=radio]{
     display: none;
 }
