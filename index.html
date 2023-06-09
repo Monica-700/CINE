@@ -1,74 +1,71 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CINEfilos</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!--header-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6f94f69e77.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.com/libraries/font-awesome"></script>
+</head>
+<body>
+    <!-- header - encabezado -->
     <header>
-      <div class="container-menu">
-        <div class="header-top">
-          <div class="logo">
-            <img src="img/logo.png" alt="" />
-          </div>
-          <nav>
-            <ul>
-              <li><a href="index.html" id="selector">Inicio</a></li>
-              <li><a href="generos.html">Generos</a></li>
-                <ul>
-                    <li><a href="comedia.html">Comedia</a></li>
-                    <li><a href="ficcion.html">Ficción</a></li>
-                    <li><a href="terror.html">Terror</a></li>
-                    <li><a href="suspenso.html">Suspenso</a></li>
-                    <li><a href="">Clasicas</a></li>
-                    <li><a href="">Acción</a></li>
-                </ul>
-              <li><a href="tickets.html">Tickets</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
-              <li>
-                <a href="https://www.rottentomatoes.com/" target="_blank"
-                  >Roten tomatoes</a
-                >
-              </li>
-              <li>
-                <a href="https://facebook.com/" target="_blank">Facebook</a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/" target="_blank">YouTube</a>
-              </li>
-              <li>
-                <a href="https://wa.me/3008504573" target="_blank">Whatsapp</a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/" target="_blank"
-                  >Instagram</a
-                >
-              </li>
-            </ul>
-          </nav>
+        <div class="container-menu">
+            <div class="header-superior">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#" id="selector">Inicio</a></li>
+                            <li><a href="generos.html">Generos</a>
+                                <ul>
+                                    <li><a href="comedia.html">Comedia</a></li>
+                                    <li><a href="terror.html">terror</a></li>
+                                    <li><a href="ficcion.html">ficción</a></li>
+                                    <li><a href="accion.html">accion</a></li>
+                                </ul>  
+                            
+                            </li>
+                            <li><a href="tickts.html">Tickets</a></li>
+                            <li><a href="contacto.html">contacto</a></li>
+                            <li><a href="https://www.rottentomatoes.com/" target="_blank">Roten tomatoes</a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://wa.me/3105188168" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+
+                        </ul>
+                
+                    </nav>
+            </div>                      
         </div>
-      </div>
     </header>
 
-    <h1 class="title"></h1>
+    <h1 class="title">Novedades</h1>
+
     <div class="container__slider">
-      <div class="cards">
-        <label for="item-1" class="card" id="selector-1">
-          <img src="img/1683455567317_Poster.jpg" alt="" />
-        </label>
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+        
 
-        <label for="item-2" class="card" id="selector-2">
-          <img src="img/1682443537837_Poster.jpg" alt="" />
-        </label>
+        <div class="cards">
+            <label for="item-1" class="card" id="selector-1">
+                <img src="img/1682443537837_Poster.jpg" alt="">
+            </label>
+            <label for="item-2" class="card" id="selector-2">
+                <img src="img/1683455567317_Poster.jpg" alt="">
+            </label>
+            <label for="item-3" class="card" id="selector-3">
+                <img src="img/1684173320520_Poster.jpg" alt="">
+            </label>
 
-        <label for="item-3" class="card" id="selector-3">
-          <img src="img/1684173320520_Poster.jpg" alt="" />
-        </label>
-      </div>
+        </div>
     </div>
-  </body>
+</div>
+
+</body>
 </html>
