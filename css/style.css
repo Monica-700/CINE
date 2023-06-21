@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 :root{
-    --colorHeader:#FF8C00;
+    --colorHeader:#000000;
     --fuente:'Roboto', sans-serif;
-    --colorFooter:#A0522D;
-    --colorBody:#F0E68C;
+    --colorFooter:#161211;
+    --colorBody:#322d02;
 }
 /* configuraciones globales */
 *{
@@ -243,7 +243,63 @@ img{
     transform: translateX(40) scale(1);
     z-index: 1;
 }
-
-
+/* Otros servicios */
+.cta__main{
+    width: 100%;
+    text-align: center;
+    }
+.frontpage__cta-wrapper {
+    overflow: hidden;
+}
+.frontpage__cta-title{
+    font-size: 2rem;
+    font-family: var(--fuente);
+    font-weight: 700;
+    line-height: 1.3;
+}
+.frontpage__cta-action{
+    margin: 0 auto;
+    margin-top: 30px;
+    border-width: 2px;
+    border: 2px solid #3b0505;
+    border-color: #800000;
+    color: #161211;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2;
+    visibility: visible;
+    background-color: transparent;
+    line-height: 20px;
+    max-width: 300px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 40px;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 1px;
+}
+.frontpage__cta-action::before{
+    background: #000000;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue,
+    red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite ;
+}
 
 
